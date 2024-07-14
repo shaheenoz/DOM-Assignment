@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Assignment</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+
+
+<h4>1. Remove selected Item</h4>
+<select id="colorSelect">
+    <option>Red</option>
+    <option>Green</option>
+    <option>White</option>
+    <option>Black</option>
+</select>
+<button onclick="removeSelectedItem()">Remove Selected Item</button>
+
+
+<h4>2. Change Text Color</h4>
+<select id="selectColor">
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="White">White</option>
+    <option value="Black">Black</option>
+</select>
+<button onclick="changeTextColor()">Change below text Color</button>
+<p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illo minima ratione nesciunt doloremque?</p>
+
+
+<h4>3. Get the values of First and Last names of the following form in Consol.</h4>
+<form id="form1" onsubmit="return getFormValues()">
+    First name: <input type="text" name="fname" value="David"><br>
+    Last name: <input type="text" name="lname" value="Beckham"><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<h4>4. Display a random image (clicking on a button) from the following list</h4>
+<button onclick="displayRandomImage()">Show Random Image</button>
+<br><br>
+<img id="randomImage" src="" alt="Random Image" style="display: none;">
+
+</body>
+</html>
